@@ -9,7 +9,6 @@ elif traffic_density == "high":
     green_time = 60
 else:
     print("Invalid traffic density input. Please enter 'low', 'medium', or 'high'.")
-    exit()
 
 if emergency_vehicle == "yes":
     print("Emergency override: route receives immediate green.")
